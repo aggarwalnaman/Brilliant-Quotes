@@ -17,7 +17,8 @@ class _quoteListState extends State<quoteList> {
     Quote(author: 'Oscar Wilde', text: 'Be yourself; everyone else is already taken'),
     Quote(author: 'Oscar Wilde', text: 'I have nothing to declare except my genius'),
     Quote(author: 'Oscar Wilde', text: 'I can resist everything except temptation.'),
-    Quote(author: 'Oscar Wilde', text: 'The truth is rarely pure and never simple')
+    Quote(author: 'Oscar Wilde', text: 'The truth is rarely pure and never simple'),
+    Quote(author: 'Naman Aggarwal', text: 'Talk is cheap. Show me the code.'),
   ];
 
   @override
