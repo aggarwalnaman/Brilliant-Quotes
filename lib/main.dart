@@ -9,9 +9,9 @@ void main() => runApp(MaterialApp(
   title: "Quotes",
   home: quoteList(),
   theme: ThemeData(
-    primarySwatch: Colors.green,
+    primarySwatch: Colors.red,
     brightness: theme,
-    accentColor: Colors.blue,
+    accentColor: Colors.red,
   ),
 ));
 
@@ -34,10 +34,9 @@ class _quoteListState extends State<quoteList> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      backgroundColor: Colors.grey[200],
       appBar: AppBar(
         title: Text('Awesome Quotes'),
-        backgroundColor: Colors.red,
+        // backgroundColor: Colors.red,
         actions: <Widget>[
           FlatButton.icon(
             onPressed: () {
@@ -71,6 +70,12 @@ class _quoteListState extends State<quoteList> {
             });
           },
         )).toList(),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+
+        },
+        child: Icon(Icons.add),
       ),
     );
   }
