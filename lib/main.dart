@@ -3,7 +3,7 @@ import 'quote.dart';
 import 'quote_card.dart';
 
 Brightness theme = Brightness.light;
-bool themeLight = true;
+bool themeDark = true;
 
 void main() => runApp(MaterialApp(
   title: "Quotes",
@@ -105,18 +105,18 @@ class _quoteListState extends State<quoteList> {
         actions: <Widget>[
           FlatButton.icon(
             onPressed: () {
-              if (themeLight) {
-                themeLight = false;
+              if (themeDark) {
+                themeDark = false;
                 setState(() {
-                  theme = Brightness.light;
+                  theme = Brightness.dark;
                   main();
                 });   
               }
               else
               {
-                themeLight = true;
+                themeDark = true;
                 setState(() {
-                  theme = Brightness.dark;
+                  theme = Brightness.light;
                   main();
                 });
               }
