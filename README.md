@@ -14,7 +14,8 @@ You can download apk file named Qoutes.apk uploaded above!!..
 # Screenshots
 
 
-![WhatsApp Image 2020-05-06 at 5 23 45 PM (1)](https://user-images.githubusercontent.com/42396114/81174023-ad2a2500-8fbe-11ea-9e24-f765d0260faa.jpeg)      
+![WhatsApp Image 2020-05-06 at 5 23 45 PM (1)](https://user-images.githubusercontent.com/42396114/81174023-ad2a2500-8fbe-11ea-9e24-f765d0260faa.jpeg)      ![WhatsApp Image 2020-05-06 at 5 23 45 PM](https://user-images.githubusercontent.com/42396114/81174159-efebfd00-8fbe-11ea-9228-fa15f1bcfbd9.jpeg)
+
 
 
 
