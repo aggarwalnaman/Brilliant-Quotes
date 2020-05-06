@@ -1,7 +1,10 @@
 # quotes
 
 New updates are added :
-1. Dark mode
+1. Dark mode is added
+2. Add button is added so that you can add your own quotes
+3. You can switch between dark mode and light mode.
+4. Sliding bug is removed
 
 
 # APK File
