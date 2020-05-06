@@ -1,6 +1,8 @@
 # quotes
 
-A new Flutter application.
+New updates are added :
+1. Dark mode
+
 
 # APK File
 
