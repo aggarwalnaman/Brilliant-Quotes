@@ -9,7 +9,7 @@ New updates are added :
 
 # APK File
 
-You can download apk file named Qoutes.apk uploaded above!!..
+You can download apk file named Quotes.apk uploaded above!!..
 
 # Screenshots
 
