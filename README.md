@@ -1,17 +1,20 @@
 # quotes
 
-A new Flutter application.
+New updates are added :
+1. Dark mode is added
+2. Add button is added so that you can add your own quotes
+3. You can switch between dark mode and light mode.
+4. Sliding bug is removed
+
 
 # APK File
 
-You can download apk file named Qoutes.apk uploaded above!!..
+You can download apk file named Quotes.apk uploaded above!!..
 
 # Screenshots
 
-![Screenshot](https://user-images.githubusercontent.com/42396114/80798055-0cec8e80-8bc1-11ea-9619-8e84a546e3b8.jpeg)     ![ezgif com-resize](https://user-images.githubusercontent.com/42396114/80799074-884f3f80-8bc3-11ea-9b5e-7d55fd022f45.gif)
 
-
-
+![WhatsApp Image 2020-05-06 at 5 23 45 PM (1)](https://user-images.githubusercontent.com/42396114/81174023-ad2a2500-8fbe-11ea-9e24-f765d0260faa.jpeg)      ![WhatsApp Image 2020-05-06 at 5 23 45 PM](https://user-images.githubusercontent.com/42396114/81174159-efebfd00-8fbe-11ea-9228-fa15f1bcfbd9.jpeg)    ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/42396114/81174781-0fcff080-8fc0-11ea-82b3-02b95443a410.gif)   ![ezgif com-resize](https://user-images.githubusercontent.com/42396114/81174972-663d2f00-8fc0-11ea-8e9f-cb4cc60dd738.gif)
 
 
 
