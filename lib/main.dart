@@ -40,55 +40,58 @@ class _quoteListState extends State<quoteList> {
     return showDialog(context: context, builder: (context){
       return AlertDialog(
         // title: Text("Add Quote"),
-        content: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children : <Widget>[
+        content: Form(
+          child:  Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children : <Widget>[
 
-            Text("Add Quote"),
-            SizedBox(height:20.0),
-            TextFormField(
-              decoration: InputDecoration(
-                hintText : 'Your name'
-              ),
-              style: TextStyle(fontSize: 17.0),
-              onChanged: (val) {
-                setState(() {
-                  name=val;
-                });
-              },
+                Text("Add Quote"),
+                SizedBox(height:20.0),
+                TextFormField(
+                  decoration: InputDecoration(
+                    hintText : 'Your name'
+                  ),
+                  style: TextStyle(fontSize: 17.0),
+                  onChanged: (val) {
+                    setState(() {
+                      name=val;
+                    });
+                  },
+                ),
+
+                SizedBox(height : 20.0), 
+
+                TextFormField(
+                  decoration: InputDecoration(
+                    hintText : 'Quote'
+                  ),
+                  style: TextStyle(fontSize: 17.0),
+                  onChanged: (val) {
+                    setState(() {
+                      text=val;
+                    });
+                  },
+                ),
+                SizedBox(height : 30.0),
+                RaisedButton(
+                  color: Colors.red,
+                  child: Text(
+                    'Submit'
+                  ),
+                  onPressed: (){
+
+                    setState(() {
+                      quotes.add(Quote(author: name, text : text));
+                    });
+                    
+                    Navigator.of(context).pop();
+
+                  },
+                ),
+
+              ], 
             ),
-
-            SizedBox(height : 20.0), 
-
-            TextFormField(
-              decoration: InputDecoration(
-                hintText : 'Quote'
-              ),
-              style: TextStyle(fontSize: 17.0),
-              onChanged: (val) {
-                setState(() {
-                  text=val;
-                });
-              },
-            ),
-            SizedBox(height : 30.0),
-            RaisedButton(
-              color: Colors.red,
-              child: Text(
-                'Submit'
-              ),
-              onPressed: (){
-
-                setState(() {
-                  quotes.add(Quote(author: name, text : text));
-                });
-                
-                Navigator.of(context).pop();
-
-              },
-            ),
-
-          ], 
+          
         ),
         
       );
