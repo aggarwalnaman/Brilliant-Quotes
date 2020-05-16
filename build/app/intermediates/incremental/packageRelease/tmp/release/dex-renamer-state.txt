@@ -1,4 +1,4 @@
-#Tue May 05 15:32:44 IST 2020
+#Sat May 16 13:24:15 IST 2020
 base.0=D\:\\Flutter apps\\quotes\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
